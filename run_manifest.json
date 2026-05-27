@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-05-27T19:43:27",
+  "random_seed": 42,
+  "files_read": [
+    "train.csv",
+    "test.csv",
+    "config.json"
+  ],
+  "models_trained": [
+    "logistic_regression",
+    "linear_svm",
+    "naive_bayes"
+  ],
+  "winning_model": "linear_svm",
+  "key_metrics": {
+    "accuracy": 0.5,
+    "macro_f1": 0.3333,
+    "macro_precision": 0.25,
+    "macro_recall": 0.5
+  },
+  "artifact_paths": {
+    "vectorizer": "vectorizer.joblib",
+    "models": {
+      "logistic_regression": "logistic_regression.joblib",
+      "linear_svm": "linear_svm.joblib",
+      "naive_bayes": "naive_bayes.joblib"
+    },
+    "reports": [
+      "data_validation_report.json",
+      "preprocessing_preview.json",
+      "split_report.json",
+      "metrics.json",
+      "model_selection_report.json",
+      "error_analysis.json",
+      "test_predictions.csv",
+      "run_manifest.json",
+      "safeguards_report.json"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "train_columns",
+      "passed": true
+    },
+    {
+      "check": "test_columns",
+      "passed": true
+    },
+    {
+      "check": "distinct_labels",
+      "passed": true,
+      "detail": "2 distinct labels: ['negative', 'positive']"
+    },
+    {
+      "check": "train_empty_text",
+      "passed": true
+    },
+    {
+      "check": "test_empty_text",
+      "passed": true
+    },
+    {
+      "check": "train_unique_ids",
+      "passed": true
+    },
+    {
+      "check": "test_unique_ids",
+      "passed": true
+    }
+  ]
+}

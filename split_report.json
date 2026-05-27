@@ -1,0 +1,15 @@
+{
+  "random_seed": 42,
+  "train_size": 8,
+  "validation_size": 2,
+  "labels": {
+    "negative": {
+      "train": 4,
+      "validation": 1
+    },
+    "positive": {
+      "train": 4,
+      "validation": 1
+    }
+  }
+}

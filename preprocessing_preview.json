@@ -1,0 +1,19 @@
+{
+  "examples": [
+    {
+      "id": 1,
+      "before": "I loved the onboarding flow, it was simple and fast",
+      "after": "i loved the onboarding flow, it was simple and fast"
+    },
+    {
+      "id": 2,
+      "before": "The app crashes every time I try to upload a file",
+      "after": "the app crashes every time i try to upload a file"
+    },
+    {
+      "id": 3,
+      "before": "Support replied quickly and solved my issue",
+      "after": "support replied quickly and solved my issue"
+    }
+  ]
+}

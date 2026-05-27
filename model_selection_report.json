@@ -1,0 +1,36 @@
+{
+  "selection_metric": "macro_f1",
+  "winner": "linear_svm",
+  "reason": "'linear_svm' selected after tie on both macro_f1 (0.3333) and macro_precision (0.2500). Resolved alphabetically by model name.",
+  "tie_breaking_applied": true,
+  "tie_breaking_steps_used": [
+    "macro_precision",
+    "alphabetical_name"
+  ],
+  "rankings": [
+    {
+      "rank": 1,
+      "model": "linear_svm",
+      "macro_f1": 0.3333,
+      "macro_precision": 0.25,
+      "macro_recall": 0.5,
+      "accuracy": 0.5
+    },
+    {
+      "rank": 2,
+      "model": "logistic_regression",
+      "macro_f1": 0.3333,
+      "macro_precision": 0.25,
+      "macro_recall": 0.5,
+      "accuracy": 0.5
+    },
+    {
+      "rank": 3,
+      "model": "naive_bayes",
+      "macro_f1": 0.3333,
+      "macro_precision": 0.25,
+      "macro_recall": 0.5,
+      "accuracy": 0.5
+    }
+  ]
+}

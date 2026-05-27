@@ -1,0 +1,64 @@
+{
+  "models": {
+    "logistic_regression": {
+      "accuracy": 0.5,
+      "macro_precision": 0.25,
+      "macro_recall": 0.5,
+      "macro_f1": 0.3333,
+      "per_class": {
+        "negative": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "support": 1
+        },
+        "positive": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        }
+      }
+    },
+    "linear_svm": {
+      "accuracy": 0.5,
+      "macro_precision": 0.25,
+      "macro_recall": 0.5,
+      "macro_f1": 0.3333,
+      "per_class": {
+        "negative": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "support": 1
+        },
+        "positive": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        }
+      }
+    },
+    "naive_bayes": {
+      "accuracy": 0.5,
+      "macro_precision": 0.25,
+      "macro_recall": 0.5,
+      "macro_f1": 0.3333,
+      "per_class": {
+        "negative": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "support": 1
+        },
+        "positive": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        }
+      }
+    }
+  }
+}

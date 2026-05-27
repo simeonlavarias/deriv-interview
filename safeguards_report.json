@@ -1,0 +1,20 @@
+{
+  "total_warnings": 0,
+  "checks": [
+    {
+      "check": "class_imbalance",
+      "warning": false,
+      "detail": "All classes within acceptable range. Distribution: {'positive': '50.0%', 'negative': '50.0%'}."
+    },
+    {
+      "check": "validation_class_coverage",
+      "warning": false,
+      "detail": "All training classes are represented in the validation split."
+    },
+    {
+      "check": "train_val_text_overlap",
+      "warning": false,
+      "detail": "No exact duplicate texts between train and validation splits."
+    }
+  ]
+}

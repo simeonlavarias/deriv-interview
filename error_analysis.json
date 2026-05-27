@@ -1,0 +1,15 @@
+{
+  "winner_model": "linear_svm",
+  "total_errors": 1,
+  "top_k": 10,
+  "errors": [
+    {
+      "id": 9,
+      "text": "very easy to use for first-time users",
+      "true_label": "positive",
+      "predicted_label": "negative",
+      "confidence_or_score": -0.238,
+      "reason": "Model predicted 'negative' (decision_function: -0.238) but true label was 'positive'. Top contributing tokens: ['time', 'to']."
+    }
+  ]
+}
